@@ -1,0 +1,120 @@
+:root {
+    --bodyColor: #1E202B;
+    --drbcolor: #262936;
+    box-sizing: border-box;
+}
+
+.bodyclr {
+    background-color: var(--bodyColor);
+}
+
+.secondclr {
+    background-color: var(--drbcolor);
+}
+
+.logoimg {
+    width: 80px;
+}
+
+.navbar-collapse {
+    border-radius: 10px;
+}
+
+.bodyimg {
+    background-image: url(./../imgs/banner.png);
+    background-size: auto;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+
+.buttonstyle {
+    top: 50%;
+    right: 7px;
+    transform: translateY(-50%);
+}
+
+.inputs input {
+    background-color: var(--bodyColor);
+    color: #fff !important;
+}
+
+.inputs input::placeholder {
+    color: #6e6969;
+    opacity: 1;
+}
+
+.inputs input:focus {
+    background-color: var(--bodyColor);
+    color: #6e6969;
+}
+
+.deg h1 {
+    font-size: 4rem;
+    color: white;
+}
+.deg i{
+    color: white;
+    font-size: 2rem;
+}
+
+.rowcard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 6px 10px 6px 10px;
+
+}
+
+.rowcard1{
+    border-radius: 8px 8px 0 0;
+
+}
+
+.icon{
+    background-color: var(--bodyColor);
+    color: #009AD8;
+    transition: 0.2s;
+}
+.icon:hover{
+    background-color: #009AD8;
+    color: white;
+}
+
+.iconimg{
+    width: 15%;
+}
+
+@media screen and (min-width: 992px) {
+    .deg{
+        display: flex;
+        flex-direction: column;
+    }
+    .deg i{
+        margin: 20px;
+    }
+}
+
+.contInputs input:hover{
+    border-color: #009AD8;
+}
+
+.contInputs textarea:hover{
+    border-color: #009AD8;
+}
+
+.inputs textarea {
+    background-color: var(--bodyColor);
+    color: #fff !important;
+}
+
+.inputs textarea::placeholder {
+    color: #6e6969;
+    opacity: 1;
+}
+
+.inputs textarea:focus {
+    background-color: var(--bodyColor);
+    color: #6e6969;
+}

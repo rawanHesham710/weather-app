@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="./style/all.min.css">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/index.css">
+
+</head>
+
+<body>
+    <!-- start if nav -->
+    <nav class="navbar navbar-expand-lg bodyclr navedit">
+        <div class="container px-4">
+            <a class="navbar-brand text-white" href="#"><span><img src="./imgs/logo@2x.png" class="logoimg"
+                        alt=""></span>
+                Weather</a>
+            <button class="navbar-toggler rounded-circle  bg-info" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav  mb-2 mb-lg-0  text-white">
+                    <li class="nav-item ">
+                        <a class="nav-link  active border-dark-subtle text-info  py-3" aria-current="page"
+                            href="#">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link  text-white border-dark-subtle  py-3" href="#">News</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link  text-white border-dark-subtle py-3" href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link  border-dark-subtle text-white  py-3" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link  text-white  py-3" href="./contact.html">Contact</a>
+                    </li>
+
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- end of nav -->
+
+
+    <!-- start of first section -->
+    <section class="bodyclr bodyimg overflow-auto">
+        <div class="container-fluid overflow-auto my-5 px-5  ">
+            <div class="inputs pb-5 mt-2">
+                <div class="inputs position-relative ">
+                    <input type="text" placeholder="Find your location..."
+                        class="form-control py-3 bodyclr border-0 rounded-pill foreInput" style="padding-right: 50px;">
+                    <button class="btn btn-info position-absolute buttonstyle rounded-pill text-white px-5 py-2">
+                        Find
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="wetherCards  my-5 container-md px-5">
+            <div class="row">
+                <div class="col-md-4 py-5  position-relative  rounded-top-3 current" style="background-color: #323544;">
+
+                </div>
+                <div class="col-md-4 px-4 py-5 position-relative nextday" style="background-color: #262936;">
+                    
+                </div>
+                <div class="col-md-4 px-4 py-5  position-relative  day3" style="background-color: #323544;">
+                    
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- end of first section -->
+
+<!-- start of footer section -->
+
+<footer class="secondclr py-5">
+    <div class="container-md">
+        <div class="row m-auto">
+            <div class="col-md-9">
+                <div class="inputs  mt-2">
+                    <div class="inputs position-relative ">
+                        <input type="text" placeholder="Enter your email to subscribe..."
+                            class="form-control py-3 bodyclr border-0 rounded-pill " style="padding-right: 50px;">
+                        <button class="btn btn-info position-absolute buttonstyle rounded-pill text-white px-5 py-2">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-3">
+    
+                <div class="icons d-flex py-3 ">
+                    <div  >
+                        <i class="fa-brands icon fa-facebook-f rounded-circle p-3  " ></i>
+                    </div>
+                    <div  >
+                        <i class="fa-brands icon fa-twitter rounded-circle p-3 mx-1" ></i>
+                    </div>
+                    <div  >
+                        <i class="fa-brands icon fa-google-plus-g rounded-circle p-3 me-1" ></i>
+                    </div>
+                    <div  >
+                        <i class="fa-brands icon fa-pinterest rounded-circle p-3 " ></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+        <div class="mx-3">
+            <p class="text-white">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </div>
+
+    
+</footer>
+<!-- end of footer section -->
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
+
